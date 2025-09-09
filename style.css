@@ -1,3 +1,24 @@
+/* Contact section header color */
+.contact-section h2 {
+	color: #4f8cff;
+}
+/* Section divider styles */
+.section-divider {
+	border: none;
+	border-top: 2px solid #4f8cff;
+	width: 80vw;
+	margin: 40px auto;
+}
+/* Contact section styles */
+.contact-section {
+	text-align: center;
+}
+.contact-email {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 16px;
+}
 /* Projects section styles */
 .projects-section {
 	width: 80vw;
