@@ -1,3 +1,87 @@
+/* Projects section styles */
+.projects-section {
+	width: 80vw;
+	max-width: 900px;
+	margin: 40px auto 0 auto;
+	padding: 32px 24px;
+	background: #181a1b;
+	border-radius: 12px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+}
+.projects-section h2 {
+	color: #4f8cff;
+	text-align: center;
+	margin-top: 0;
+}
+.projects-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	justify-content: center;
+	margin-top: 24px;
+}
+.project-card {
+	background: #23272a;
+	color: #f5f7fa;
+	border-radius: 8px;
+	box-shadow: 0 1px 6px rgba(0,0,0,0.12);
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 200px;
+	margin: 0;
+	padding: 0 12px;
+}
+.project-card h3 {
+	margin: 0;
+	color: #4f8cff;
+	font-size: 1.2em;
+}
+/* Navigation bar styles */
+.main-nav {
+	background: #23272a;
+	border-bottom: 1px solid #4f8cff;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.main-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	gap: 32px;
+}
+.main-nav li {
+	margin: 0;
+}
+.main-nav a {
+	display: block;
+	padding: 14px 0;
+	color: #4f8cff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 1.08em;
+	transition: color 0.2s;
+}
+.main-nav a:hover,
+.main-nav a:focus {
+	color: #fff;
+}
+/* Profile photo styles */
+.profile-photo {
+	width: 120px;
+	height: 120px;
+	object-fit: cover;
+	border-radius: 50%; /* Makes the image circular */
+	border: 2px solid #4f8cff;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+	display: block;
+	margin: 0 auto 18px auto;
+	background: #23272a;
+}
 /* Footer styles */
 .site-footer {
 	background: #e5e7eb; /* Light grey */
@@ -107,31 +191,46 @@ body {
 	color: #4f8cff;
 }
 
-/* Skills section styles */
-.skills {
+/* Skills section as a card */
+.skills.card {
 	background: #181a1b;
 	margin: 32px auto;
-	max-width: 600px;
-	padding: 24px 16px;
-	border-radius: 8px;
+	width: 80vw;
+	max-width: 900px;
+	padding: 32px 24px;
+	border-radius: 12px;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.18);
 }
 .skills h2 {
 	margin-top: 0;
 	color: #4f8cff;
+	text-align: center;
 }
 .skills ul {
 	list-style: none; /* Remove default bullets */
 	padding: 0;
 	display: flex;
-	gap: 16px;
+	flex-wrap: wrap;
+	gap: 20px;
 	justify-content: center;
 }
 .skills li {
-	background: #23272a;
-	color: #4f8cff;
-	padding: 8px 16px;
-	border-radius: 4px;
+	background: #2d3236; /* Lighter than main background */
+	color: #f5f7fa;
+	padding: 12px 22px;
+	border-radius: 6px;
 	font-weight: bold;
-	border: 1px solid #4f8cff;
+	display: flex;
+	align-items: center;
+	font-size: 1.08em;
+	width: 170px;
+	justify-content: center;
+	gap: 8px;
+	box-shadow: 0 1px 4px rgba(0,0,0,0.10);
+}
+.skills .material-icons {
+	font-size: 1.4em;
+	margin-right: 6px;
+	color: #4f8cff;
 }
 /* Add you CSS here */
